@@ -1,0 +1,79 @@
+.title {
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.title span {
+  color: #a77fbf;
+  font-size: 40px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main img {
+  max-width: 400px;
+}
+
+.main-info {
+  max-width: 500px;
+}
+.main-info ul {
+  padding-left: 17px;
+  font-size: 19px;
+}
+
+.main-info a {
+  font-size: 19px;
+  color: #a77fbf;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 19px;
+}
+
+.main-info a:hover {
+  color: black;
+}
+.form {
+  max-width: 420px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  border: 2px solid rgb(175, 171, 171);
+}
+
+.form button {
+  background-color: #a77fbf;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 0px;
+}
+
+/*Изменим стиль кнопки при наведении на неё*/
+.form button:hover {
+  background: white;
+  color: black;
+  border: #a77fbf 2px solid;
+}
